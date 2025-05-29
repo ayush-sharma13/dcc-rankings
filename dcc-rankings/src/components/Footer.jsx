@@ -33,6 +33,8 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} DCC – Domestic Cricket Council. All rights reserved.</p>
+          <br></br>
+          <p>Made and Managed by Ayush Sharma - DCC Manager</p>
         </div>
       </div>
     </footer>
