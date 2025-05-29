@@ -4,7 +4,6 @@ import Banner from './components/Banner'
 import BannerTwo from './components/Banner2'
 import RankingSwitcher from './components/RankingSwitch'
 import Footer from './components/Footer'
-import './App.css'
 
 function App() {
 
