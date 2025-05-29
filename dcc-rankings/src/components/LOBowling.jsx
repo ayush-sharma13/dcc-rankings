@@ -12,7 +12,7 @@ export default function LimitedOversBowlingCard() {
   return (
     <div className="ranking-card">
       <div className="ranking-header">LIMITED OVERS BOWLING RANKINGS</div>
-      <div className="green"></div>
+      <div className="pink"></div>
       <ul className="ranking-list">
         {testBatting.map((player) => (
           <li key={player.rank} className="ranking-item">

@@ -33,6 +33,10 @@ body {
     background-color: rgb(24, 197, 24);
     height: 3px;
 }
+.pink{
+  background-color: rgb(240, 63, 210);
+  height: 3px;
+}
 .ranking-list {
     list-style: none;
     padding: 0;
