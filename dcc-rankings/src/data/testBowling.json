@@ -1,47 +1,43 @@
 [
     {
       "name": "Ayush Sharma",
-      "rating": 576
+      "rating": 983,
+      "rank": 1
     },
     {
-        "name": "Sumit Bajwa",
-        "rating": 411
-      },
-      {
-        "name": "Chirag Sharma",
-        "rating": 224
-      },
-      {
-        "name": "Shubham Sharma",
-        "rating": 179
-      },
-      {
-        "name": "KK",
-        "rating": 168
-      },
-      {
-        "name": "Naman Sharma",
-        "rating": 167
-      },
-      {
         "name": "Nishant Sharma",
-        "rating": 149
-      },
-      {
-        "name": "Ankush Yadav",
-        "rating": 126
+        "rating": 836,
+        "rank": 2
       },
       {
         "name": "Rishu Sheoran",
-        "rating": 102
+        "rating": 706,
+        "rank": 3
       },
       {
-        "name": "Hardik Bhatthi",
-        "rating": 67
+        "name": "Sumit Bajwa",
+        "rating": 662,
+        "rank": 4
       },
       {
-        "name": "Sandi Bhatthi",
-        "rating": 64
+        "name": "Ankush Yadav",
+        "rating": 633,
+        "rank": 5
+      },
+      {
+        "name": "KK",
+        "rating": 548,
+        "rank": 6
+      },
+      {
+        "name": "Naman Sharma",
+        "rating": 435,
+        "rank": 7
+      },
+      {
+        "name": "Shubham Sharma",
+        "rating": 203,
+        "rank": 8
       }
   ]
   

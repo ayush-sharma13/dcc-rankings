@@ -1,47 +1,62 @@
 [
-    {
-      "name": "Ayush Sharma",
-      "rating": 576
+  {
+    "name": "Ayush Sharma",
+    "rating": 857,
+    "rank": 1
+  },
+  {
+      "name": "Shubham Sharma",
+      "rating": 576,
+      "rank": 2
     },
     {
-        "name": "Sumit Bajwa",
-        "rating": 411
-      },
-      {
-        "name": "Chirag Sharma",
-        "rating": 224
-      },
-      {
-        "name": "Shubham Sharma",
-        "rating": 179
-      },
-      {
-        "name": "KK",
-        "rating": 168
-      },
-      {
-        "name": "Naman Sharma",
-        "rating": 167
-      },
-      {
-        "name": "Nishant Sharma",
-        "rating": 149
-      },
-      {
-        "name": "Ankush Yadav",
-        "rating": 126
-      },
-      {
-        "name": "Rishu Sheoran",
-        "rating": 102
-      },
-      {
-        "name": "Hardik Bhatthi",
-        "rating": 67
-      },
-      {
-        "name": "Sandi Bhatthi",
-        "rating": 64
-      }
-  ]
-  
+      "name": "Naman Sharma",
+      "rating": 549,
+      "rank": 3
+    },
+    {
+      "name": "KK",
+      "rating": 541,
+      "rank": 4
+    },
+    {
+      "name": "Sumit Bajwa",
+      "rating": 359,
+      "rank": 5
+    },
+    {
+      "name": "Nishant Sharma",
+      "rating": 332,
+      "rank": 6
+    },
+    {
+      "name": "Rishu Sheoran",
+      "rating": 318,
+      "rank": 7
+    },
+    {
+      "name": "Monu Jangra",
+      "rating": 256,
+      "rank": 8
+    },
+    {
+      "name": "Sandi Bhatthi",
+      "rating": 196,
+      "rank": 10
+    },
+    {
+      "name": "Hardik Bhatthi",
+      "rating": 152,
+      "rank": 9
+    },
+    {
+      "name": "Ankush Yadav",
+      "rating": 30,
+      "rank": 11
+    },
+    {
+      "name": "Deepak",
+      "rating": 12,
+      "rank": 12
+    }
+]

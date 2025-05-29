@@ -1,5 +1,5 @@
 import React from "react";
-import testBatting from "../data/loBowling.json";
+import testBatting from "../data/testBatting.json";
 import "../index.css";
 
 const movementIcon = (movement) => {
@@ -8,10 +8,10 @@ const movementIcon = (movement) => {
   return <span className="same">•</span>;
 };
 
-export default function LimitedOversBowlingCard() {
+export default function TestBattingRankingCard() {
   return (
     <div className="ranking-card">
-      <div className="ranking-header">LIMITED OVERS BOWLING RANKINGS</div>
+      <div className="ranking-header">TEST BATTING RANKINGS</div>
       <div className="green"></div>
       <ul className="ranking-list">
         {testBatting.map((player) => (

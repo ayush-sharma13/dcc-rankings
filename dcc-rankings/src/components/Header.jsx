@@ -23,16 +23,6 @@ export default function Header() {
                     </div>
                 </div>
             </header>
-            <div style={{
-                textAlign: 'center',
-                padding: '10px',
-                backgroundColor: '#61dafb',
-                color: '#282c34',
-                fontWeight: 'bold',
-                fontSize: '18px'
-            }}>
-                DCC World Rankings 
-            </div>
         </>
     );
 }

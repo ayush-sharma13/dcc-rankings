@@ -1,10 +1,14 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
-import TestBattingRankingCard from './RankingCard';
+import TestRankingCard from './TestRankingCard';
+import LORankingCard from './LORankingCard';
 
 export default function Content(){
     return(
-        <TestBattingRankingCard/>
+        <div>
+           <TestRankingCard/>
+           <LORankingCard/>
+        </div>
+        
     )
         
 }
