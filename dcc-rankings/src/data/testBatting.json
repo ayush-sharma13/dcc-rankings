@@ -1,0 +1,58 @@
+[
+    {
+      "name": "Ayush Sharma",
+      "rating": 576,
+      "rank": 1
+    },
+    {
+        "name": "Sumit Bajwa",
+        "rating": 411,
+        "rank": 2
+      },
+      {
+        "name": "Chirag Sharma",
+        "rating": 224,
+        "rank": 3
+      },
+      {
+        "name": "Shubham Sharma",
+        "rating": 179,
+        "rank": 4
+      },
+      {
+        "name": "KK",
+        "rating": 168,
+        "rank": 5
+      },
+      {
+        "name": "Naman Sharma",
+        "rating": 167,
+        "rank": 6
+      },
+      {
+        "name": "Nishant Sharma",
+        "rating": 149,
+        "rank": 7
+      },
+      {
+        "name": "Ankush Yadav",
+        "rating": 126,
+        "rank": 8
+      },
+      {
+        "name": "Rishu Sheoran",
+        "rating": 102,
+        "rank": 9
+      },
+      {
+        "name": "Hardik Bhatthi",
+        "rating": 67,
+        "rank": 10
+      },
+      {
+        "name": "Sandi Bhatthi",
+        "rating": 64,
+        "rank": 11
+      }
+  ]
+  
