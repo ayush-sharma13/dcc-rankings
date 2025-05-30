@@ -4,11 +4,14 @@ import Banner from "./components/Banner";
 import BannerTwo from "./components/Banner2";
 import RankingSwitcher from "./components/RankingSwitch";
 import Tournament from "./components/Tournament";
+import TournamentDetails from "./components/TournamentDetails";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Banner />
       <Routes>
@@ -16,7 +19,7 @@ function App() {
           path="/"
           element={
             <>
-            <BannerTwo />
+              <BannerTwo />
               <RankingSwitcher />
               <div className="tournament-button-container">
                 <Link to="/tournaments">
@@ -27,6 +30,7 @@ function App() {
           }
         />
         <Route path="/tournaments" element={<Tournament />} />
+        <Route path="/tournaments/:id" element={<TournamentDetails />} />
       </Routes>
       <Footer />
     </Router>

@@ -1,7 +1,15 @@
+import { useParams } from "react-router-dom";
+import data from "../data/tournaments.json";
 import "../index.css";
 
-const TournamentDetails = ({ data }) => {
-  const tournament = data[0];
+const TournamentDetails = () => {
+  const { id } = useParams();
+
+  const tournament = data.find((t) => t.id.toString() === id);
+
+  if (!tournament) {
+    return <p style={{ textAlign: "center" }}>Tournament not found</p>;
+  }
 
   return (
     <div className="tournament-wrapper">
@@ -64,6 +72,9 @@ const TournamentDetails = ({ data }) => {
             ))}
           </tbody>
         </table>
+      </div>
+
+      <div style={{ textAlign: "center", marginTop: "20px" }}>
       </div>
     </div>
   );
