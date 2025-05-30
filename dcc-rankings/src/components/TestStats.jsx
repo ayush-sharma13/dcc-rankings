@@ -2,23 +2,36 @@ import { useState, useEffect } from "react";
 import data from "../data/tournaments.json";
 import "../index.css";
 
-const allData = data[2]; // Assuming you're using the second tournament's data
+const allData = data[2]; // Using the third tournament's data
 
 const TestStats = () => {
   const [statsData, setStatsData] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    // Fetch data or use static data
     if (allData && allData.playersStats) {
       setStatsData(allData.playersStats);
     }
   }, []);
 
+  const filteredStats = statsData.filter((player) =>
+    player.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <div className="player-stats-container">
       <h2>DCC TEST Stats</h2>
+      
+      <input
+        type="text"
+        placeholder="Search player name..."
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        className="search-bar modern-search"
+      />
+
       <div className="players-cards">
-        {statsData.map((player, index) => (
+        {filteredStats.map((player, index) => (
           <div className="player-card player-card-test" key={index}>
             <h3>{player.name}</h3>
             <div className="player-stats">
@@ -51,8 +64,8 @@ const TestStats = () => {
                 <span className="player-stat-value">{player.batAvg}</span>
               </div>
               <div className="player-stat-row">
-                <span className="player-stat-label">Innings Bowl</span>
-                <span className="player-stat-value">{player.inningsBowl}</span>
+                <span className="player-stat-label">Ducks</span>
+                <span className="player-stat-value">{player.ducks}</span>
               </div>
               <div className="player-stat-row">
                 <span className="player-stat-label">Wickets</span>

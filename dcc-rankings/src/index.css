@@ -408,7 +408,7 @@ h2 {
   border-bottom: 2px solid blue;
   padding-bottom: 6px;
 }
-.player-card h3 {
+.player-card-test h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
   color: #222;
@@ -467,4 +467,37 @@ h2 {
   .player-stat-value {
     font-size: 1rem;
   }
+}
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.player-stats-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.modern-search {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: #f1f3f4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 20px auto;
+  display: block;
+}
+
+.modern-search:focus {
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }

@@ -6,19 +6,34 @@ const allData = data[1]; // Assuming you're using the second tournament's data
 
 const PlayerStats = () => {
   const [statsData, setStatsData] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    // Fetch data or use static data
     if (allData && allData.playersStats) {
       setStatsData(allData.playersStats);
     }
   }, []);
 
+  // Filter players by name (case-insensitive)
+  const filteredStats = statsData.filter((player) =>
+    player.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <div className="player-stats-container">
       <h2>DCC All Time Player Stats</h2>
+
+      {/* Search Input */}
+      <input
+        type="text"
+        placeholder="Search player name..."
+        value={searchQuery}
+        onChange={(e) => setSearchQuery(e.target.value)}
+        className="search-bar modern-search"
+      />
+
       <div className="players-cards">
-        {statsData.map((player, index) => (
+        {filteredStats.map((player, index) => (
           <div className="player-card" key={index}>
             <h3>{player.name}</h3>
             <div className="player-stats">
@@ -45,6 +60,10 @@ const PlayerStats = () => {
               <div className="player-stat-row">
                 <span className="player-stat-label">Best Batting</span>
                 <span className="player-stat-value">{player.bestBatting}</span>
+              </div>
+              <div className="player-stat-row">
+                <span className="player-stat-label">Ducks</span>
+                <span className="player-stat-value">{player.ducks}</span>
               </div>
               <div className="player-stat-row">
                 <span className="player-stat-label">Innings Bowl</span>

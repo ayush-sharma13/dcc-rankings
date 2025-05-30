@@ -258,7 +258,7 @@
         "bestBowling": "1/17",
         "thirties": 5,
         "fifties": 0,
-        "ducks0": 6
+        "ducks": 6
       },
       {
         "name": "Naman Sharma",
@@ -273,7 +273,7 @@
         "bestBowling": "4/1",
         "thirties": 1,
         "fifties": 0,
-        "ducks0": 6
+        "ducks": 6
       },
       {
         "name": "Ankush Yadav",
@@ -288,7 +288,7 @@
         "bestBowling": "2/9",
         "thirties": 0,
         "fifties": 0,
-        "ducks0": 21
+        "ducks": 21
       },
       {
         "name": "KK",
@@ -303,7 +303,7 @@
         "bestBowling": "4/10",
         "thirties": 0,
         "fifties": 0,
-        "ducks0": 18
+        "ducks": 18
       },
       {
         "name": "Hardik Bhatthi",
@@ -318,7 +318,7 @@
         "bestBowling": "2/0",
         "thirties": 0,
         "fifties": 0,
-        "ducks0": 10
+        "ducks": 10
       }
     ],
     "maxRuns": {
@@ -457,7 +457,7 @@
         "bestBowling": "1/8",
         "thirties": 0,
         "fifties": 0,
-        "ducks0": 1,
+        "ducks": 1,
         "batAvg":7.0,
         "bowlAvg":8.0
       },
