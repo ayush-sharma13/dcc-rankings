@@ -8,6 +8,7 @@ import TournamentDetails from "./components/TournamentDetails";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollTop";
 import AllStats from "./components/AllStats";
+import TestStats from "./components/TestStats";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/tournaments" element={<Tournament />} />
         <Route path="/tournaments/:id" element={<TournamentDetails />} />
         <Route path="/tournaments/2" element={<AllStats />} />
+        <Route path="/tournaments/3" element={<TestStats />} />
       </Routes>
       <Footer />
     </Router>
