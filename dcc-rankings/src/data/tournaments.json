@@ -1,0 +1,154 @@
+[
+    {
+        "id":1,
+        "name": "DCC WC 2025 S01",
+        "winner": "Sumit Sigmas",
+        "runnerUp": "Ayush Avengers",
+        "pott": "Chirag Sharma",
+        "teamOne": "Ayush Avengers",
+        "teamTwo": "Sumit Sigmas",
+        "teamOnePlayers":[
+            "Ayush",
+            "Nishant Sharma",
+            "Shubham Sharma",
+            "Rishu Sheoran",
+            "Hardik Bhatthi",
+            "Sandi Don"
+        ],
+        "teamTwoPlayers":[
+            "Sumit Bajwa",
+            "Chirag Sharma",
+            "Naman Sharma",
+            "Ankush Yadav",
+            "KK"
+        ],
+        "playersStats":[
+            {
+                "name": "Ayush Sharma",
+                "innings": 8,
+                "runs": 92,
+                "fours": 6,
+                "sixes": 5,
+                "wickets": 11,
+                "sr": 105.7,
+                "bestBatting": 25,
+                "bestBowling": "2/20"
+            },
+            {
+                "name": "Nishant Sharma",
+                "innings": 8,
+                "runs": 81,
+                "fours": 4,
+                "sixes": 2,
+                "wickets": 4,
+                "sr": 91,
+                "bestBatting": 25,
+                "bestBowling": "1/15"
+            },
+            {
+                "name": "Shubham Sharma",
+                "innings": 7,
+                "runs": 54,
+                "fours": 3,
+                "sixes": 3,
+                "wickets": 4,
+                "sr": 138.4,
+                "bestBatting": 20,
+                "bestBowling": "2/4"
+            },
+            {
+                "name": "Rishu Sheoran",
+                "innings": 6,
+                "runs": 21,
+                "fours": 2,
+                "sixes": 0,
+                "wickets": 4,
+                "sr": 48.8,
+                "bestBatting": 6,
+                "bestBowling": "1/12"
+            },
+            {
+                "name": "Sandi Bhatthi",
+                "innings": 6,
+                "runs": 20,
+                "fours": 3,
+                "sixes": 1,
+                "wickets": 1,
+                "sr": 86.9,
+                "bestBatting": 10,
+                "bestBowling": "1/26"
+            },
+            {
+                "name": "Sumit Bajwa",
+                "innings": 8,
+                "runs": 120,
+                "fours": 9,
+                "sixes": 10,
+                "wickets": 11,
+                "sr": 151.9,
+                "bestBatting": 62,
+                "bestBowling": "3/36"
+            },
+            {
+                "name": "Chirag Sharma",
+                "innings": 8,
+                "runs": 163,
+                "fours": 7,
+                "sixes": 11,
+                "wickets": "--",
+                "sr": 140.5,
+                "bestBatting": 50,
+                "bestBowling": "--"
+            },
+            {
+                "name": "Naman Sharma",
+                "innings": 7,
+                "runs": 75,
+                "fours": 9,
+                "sixes": 2,
+                "wickets": 10,
+                "sr": 85.2,
+                "bestBatting": 36,
+                "bestBowling": "3/7"
+            },
+            {
+                "name": "Ankush Yadav",
+                "innings": 7,
+                "runs": 13,
+                "fours": 0,
+                "sixes": 0,
+                "wickets": "--",
+                "sr": 34.2,
+                "bestBatting": 4,
+                "bestBowling": "--"
+            },
+            {
+                "name": "KK",
+                "innings": 8,
+                "runs": 58,
+                "fours": 1,
+                "sixes": 2,
+                "wickets": 3,
+                "sr": 82.8,
+                "bestBatting": 29,
+                "bestBowling": "1/6"
+            }
+        ],
+        "maxRuns": {
+            "name": "Chirag Sharma",
+            "runs": 163
+        },
+        "maxWickets": {
+            "name": "Naman Sharma",
+            "wickets": 10
+        },
+        "superStriker": {
+            "name": "Sumit Bajwa",
+            "sr": 151.9
+        },
+        "mostSixes": {
+            "name": "Chirag Sharma",
+            "sixes": 11
+        }
+    }
+]
