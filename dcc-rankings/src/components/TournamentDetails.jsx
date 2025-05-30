@@ -33,10 +33,21 @@ const TournamentDetails = () => {
       <div className="highlight-section">
         <h2>Top Performers</h2>
         <ul>
-          <li>🏏 Most Runs: {tournament.maxRuns.name} ({tournament.maxRuns.runs})</li>
-          <li>🎯 Most Wickets: {tournament.maxWickets.name} ({tournament.maxWickets.wickets})</li>
-          <li>💥 Super Striker: {tournament.superStriker.name} (SR: {tournament.superStriker.sr})</li>
-          <li>☄️ Most Sixes: {tournament.mostSixes.name} ({tournament.mostSixes.sixes})</li>
+          <li>
+            🏏 Most Runs: {tournament.maxRuns.name} ({tournament.maxRuns.runs})
+          </li>
+          <li>
+            🎯 Most Wickets: {tournament.maxWickets.name} (
+            {tournament.maxWickets.wickets})
+          </li>
+          <li>
+            💥 Super Striker: {tournament.superStriker.name} (SR:{" "}
+            {tournament.superStriker.sr})
+          </li>
+          <li>
+            ☄️ Most Sixes: {tournament.mostSixes.name} (
+            {tournament.mostSixes.sixes})
+          </li>
         </ul>
       </div>
 
@@ -74,8 +85,7 @@ const TournamentDetails = () => {
         </table>
       </div>
 
-      <div style={{ textAlign: "center", marginTop: "20px" }}>
-      </div>
+      <div style={{ textAlign: "center", marginTop: "20px" }}></div>
     </div>
   );
 };

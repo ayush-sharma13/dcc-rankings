@@ -7,6 +7,7 @@ import Tournament from "./components/Tournament";
 import TournamentDetails from "./components/TournamentDetails";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollTop";
+import AllStats from "./components/AllStats";
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
               <RankingSwitcher />
               <div className="tournament-button-container">
                 <Link to="/tournaments">
-                  <button className="tournament-button">DCC TOURNAMENTS</button>
+                  <button className="tournament-button">
+                    DCC TOURNAMENTS & STATS
+                  </button>
                 </Link>
               </div>
             </>
@@ -31,6 +34,7 @@ function App() {
         />
         <Route path="/tournaments" element={<Tournament />} />
         <Route path="/tournaments/:id" element={<TournamentDetails />} />
+        <Route path="/tournaments/2" element={<AllStats />} />
       </Routes>
       <Footer />
     </Router>

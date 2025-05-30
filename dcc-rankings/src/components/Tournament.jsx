@@ -15,7 +15,7 @@ const Tournament = () => {
       }}
     >
       <h2 className="dcc-tournament-banner" style={{ fontSize: "24px" }}>
-        🏆 DCC Tournaments
+        🏆 DCC Tournaments & Stats
       </h2>
 
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
