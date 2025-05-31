@@ -29,6 +29,24 @@ const TestStats = () => {
         onChange={(e) => setSearchQuery(e.target.value)}
         className="search-bar modern-search"
       />
+      <div className="highlights-container">
+        <div className="highlight-card">
+          <strong>🏏 Max Runs:</strong> {allData.maxRuns.name} (
+          {allData.maxRuns.runs})
+        </div>
+        <div className="highlight-card">
+          <strong>🎯 Max Wickets:</strong> {allData.maxWickets.name} (
+          {allData.maxWickets.wickets})
+        </div>
+        <div className="highlight-card">
+          <strong>⚡ Best Bat Average:</strong> {allData.bestAverageBat.name} (
+          {allData.bestAverageBat.avg})
+        </div>
+        <div className="highlight-card">
+          <strong>💥 Best Bowl Average:</strong> {allData.bestAverageBowl.name} (
+          {allData.bestAverageBowl.avg})
+        </div>
+      </div>
 
       <div className="players-cards">
         {filteredStats.map((player, index) => (

@@ -529,6 +529,22 @@
         "batAvg":3.3,
         "bowlAvg":"--"
       }
-    ]
+    ],
+    "maxRuns": {
+      "name": "Ayush Sharma",
+      "runs": 96
+    },
+    "maxWickets": {
+      "name": "Ayush Sharma",
+      "wickets": 17
+    },
+    "bestAverageBat": {
+      "name": "Ayush Sharma",
+      "avg": 24
+    },
+    "bestAverageBowl": {
+      "name": "Nishant Sharma",
+      "avg": 3.7
+    }
   }
 ]
